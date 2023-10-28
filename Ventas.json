@@ -1,0 +1,7 @@
+[
+    {"id": 1, "id_producto": 1, "id_vendedor": 1, "fecha": "2023-10-15", "total": 600},
+    {"id": 2, "id_producto": 2, "id_vendedor": 2, "fecha": "2023-10-16", "total": 300},
+    {"id": 3, "id_producto": 4, "id_vendedor": 1, "fecha": "2023-10-16", "total": 20},
+    {"id": 4, "id_producto": 1, "id_vendedor": 3, "fecha": "2023-10-17", "total": 600},
+    {"id": 5, "id_producto": 3, "id_vendedor": 2, "fecha": "2023-10-18", "total": 200}
+]
