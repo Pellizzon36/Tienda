@@ -1,6 +1,45 @@
 [
-    {"id": 1, "nombre": "Laptop", "desc": "Laptop HP con pantalla de 15 pulgadas", "precio": 600, "disponible": true},
-    {"id": 2, "nombre": "Teléfono", "desc": "Teléfono inteligente Android", "precio": 300, "disponible": true},
-    {"id": 3, "nombre": "Tablet", "desc": "Tablet Samsung con pantalla de 10 pulgadas", "precio": 200, "disponible": false},
-    {"id": 4, "nombre": "Mouse", "desc": "Mouse inalámbrico para computadora", "precio": 20, "disponible": true}
+  {
+    "id": 1,
+    "nombre": "Laptop",
+    "desc": "Laptop HP con pantalla de 15 pulgadas",
+    "precio": "30000",
+    "disponible": true
+  },
+  {
+    "id": 2,
+    "nombre": "Teléfono",
+    "desc": "Teléfono inteligente Android",
+    "precio": "50000",
+    "disponible": true
+  },
+  {
+    "id": 3,
+    "nombre": "Tablet",
+    "desc": "Tablet Samsung con pantalla de 10 pulgadas",
+    "precio": 200,
+    "disponible": false
+  },
+  {
+    "id": 4,
+    "nombre": "Mouse",
+    "desc": "Mouse inalámbrico para computadora",
+    "precio": 20,
+    "disponible": true
+  },
+  {
+    "id": 30,
+    "nombre": "Pendrive",
+    "desc": "Laptop HP con pantalla de 15 pulgadas",
+    "precio": "30000",
+    "disponible": true
+  },
+  {},
+  {
+    "id": 20,
+    "nombre": "Pendrive",
+    "desc": "Laptop HP con pantalla de 15 pulgadas",
+    "precio": "30000",
+    "disponible": true
+  }
 ]

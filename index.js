@@ -1,0 +1,30 @@
+import express from 'express'
+import dotenv from 'dotenv'
+import prodRouter from  './routes/prod.routes.js'
+import vendRouter from  './routes/vend.routes.js'
+
+//Traer variable de entornos
+dotenv.config()
+
+//Crear Instancia
+const app = express()
+
+app.use(express.json());
+
+//Configurar Puerto
+const port = process.env.port
+//Levantar Servidor
+app.listen(port, () =>{
+    console.log(`Servidor Levantado en el Puerto ${port}`)
+    
+    //altgr + } Hace las Comillas `
+})
+
+app.use('/prod', prodRouter)
+app.use('/vend', vendRouter)
+
+
+
+
+
+
