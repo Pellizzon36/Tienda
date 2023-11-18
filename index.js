@@ -2,6 +2,7 @@ import express from 'express'
 import dotenv from 'dotenv'
 import prodRouter from  './routes/prod.routes.js'
 import vendRouter from  './routes/vend.routes.js'
+import connection from './connection.js'
 
 //Traer variable de entornos
 dotenv.config()
@@ -23,7 +24,20 @@ app.listen(port, () =>{
 app.use('/prod', prodRouter)
 app.use('/vend', vendRouter)
 
+//SQL
 
+app.get('/', (req, res)=>{
+    const query = `SELECT * FROM vendedores`
+
+    connection.query(query, (error, result)=>{
+        if(error){
+            console.log('Error al ejecutar la query', error)
+            res.status(500).send('Error al ejecutar query')
+        }else{
+            res.status(200).json(result)
+        }
+    })
+})
 
 
 

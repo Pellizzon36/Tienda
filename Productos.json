@@ -30,16 +30,9 @@
   {
     "id": 30,
     "nombre": "Pendrive",
-    "desc": "Laptop HP con pantalla de 15 pulgadas",
-    "precio": "30000",
+    "desc": "Pendrive de 1tb marca Verbatin",
+    "precio": "30",
     "disponible": true
   },
   {},
-  {
-    "id": 20,
-    "nombre": "Pendrive",
-    "desc": "Laptop HP con pantalla de 15 pulgadas",
-    "precio": "30000",
-    "disponible": true
-  }
 ]
